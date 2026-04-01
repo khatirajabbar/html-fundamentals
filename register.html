@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Strokes – Fan Club Register</title>
+</head>
+<body>
+
+  <center>
+    <h1>🎸 The Strokes – Fan Club</h1>
+    <i>Join the community of the most devoted Strokes fans!</i>
+  </center>
+
+  <hr>
+
+  <h2>Register</h2>
+
+  <form action="https://httpbin.org/post" method="POST">
+
+    <!-- Full Name -->
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" placeholder="Enter your full name"><br><br>
+
+    <!-- Email -->
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+    <!-- Password -->
+    <label>Password:</label><br>
+    <input type="password" name="password" placeholder="Create a password"><br><br>
+
+    <!-- Date of Birth -->
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob"><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+
+    <!-- Country -->
+    <label>Country:</label><br>
+    <select name="country">
+      <option value="">-- Select Country --</option>
+      <option value="az">Azerbaijan</option>
+      <option value="tr">Turkey</option>
+      <option value="us">United States</option>
+      <option value="uk">United Kingdom</option>
+      <option value="de">Germany</option>
+    </select><br><br>
+
+    <!-- Favourite Strokes Album -->
+    <label>Favourite Strokes Album:</label><br>
+    <select name="album">
+      <option value="">-- Select Album --</option>
+      <option value="is-this-it">Is This It (2001)</option>
+      <option value="room-on-fire">Room on Fire (2003)</option>
+      <option value="first-impressions">First Impressions of Earth (2006)</option>
+      <option value="angles">Angles (2011)</option>
+      <option value="new-abnormal">The New Abnormal (2020)</option>
+    </select><br><br>
+
+    <!-- How did you discover The Strokes -->
+    <label>How did you discover The Strokes?</label><br>
+    <input type="radio" name="discovery" value="friend"> A friend told me
+    <input type="radio" name="discovery" value="internet"> Internet / YouTube
+    <input type="radio" name="discovery" value="radio"> Radio
+    <input type="radio" name="discovery" value="concert"> Live concert<br><br>
+
+    <!-- Interests -->
+    <label>Your Interests:</label><br>
+    <input type="checkbox" name="interest" value="music"> Music
+    <input type="checkbox" name="interest" value="concerts"> Concerts
+    <input type="checkbox" name="interest" value="vinyl"> Vinyl / Collecting
+    <input type="checkbox" name="interest" value="guitar"> Playing Guitar<br><br>
+
+    <!-- Bio -->
+    <label>Why are you a Strokes fan?</label><br>
+    <textarea name="bio" rows="4" cols="40" 
+      placeholder="Tell us your Strokes story..."></textarea><br><br>
+
+    <!-- Submit -->
+    <button type="submit">Join the Fan Club 🎸</button>
+
+  </form>
+
+  <hr>
+
+  <p><a href="index.html">← Back to The Strokes page</a></p>
+
+</body>
+</html>
